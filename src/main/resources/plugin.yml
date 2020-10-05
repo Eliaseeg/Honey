@@ -1,0 +1,5 @@
+name: Honey
+main: com.beecraft.honey.Honey
+version: ${project.version}
+api-version: 1.16
+author: [Eliaseeg]

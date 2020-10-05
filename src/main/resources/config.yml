@@ -1,0 +1,23 @@
+CONFIG:
+  START_TIME: 15
+
+ITEMS:
+  QUIT:
+    MATERIAL: BARRIER
+    NAME: "Go to the lobby"
+    LORE:
+      - 'Going to lobby!'
+      - 'Lobby!'
+
+MESSAGES:
+  CONSTANTS:
+    SERVER_NAME: "BeeCraft"
+    SERVER_IP: "play.beecraft.gg"
+  CHAT:
+    JOIN_GAME: "&7{%s} &ehas joined (&b%s&e/&b%s&e)!"
+    QUIT_GAME: "&7{%s} &ehas quit (&b%s&e/&b%s&e)!"
+    STARTING: "&eThe game starts in &%s%s &esecond%s!"
+    CANCELING: "&eNot enough players in the game. Stopping countdown."
+  TITLE:
+    STARTING_TITLE: "&c%s"
+    STARTING_SUBTITLE: "&7Prepare yourself!"
